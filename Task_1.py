@@ -14,10 +14,22 @@ class Character:
         self._hp = hp_max # Note: _hp indicated private attribute
         self.hp_max = hp_max
         self.damage = damage
-    def attack(self, target) -> None:
+
+    def take_damage(self, damage: int) -> None:
+        """Take damage and reduce hit points"""
+        self._hp -= damage
+        self._hp = max(self._hp, 0) # HP cannot end up lower than 0
+
+    def heal(self, amount: int) -> None:
+        """Heal and increase hit points"""
+        self._hp += amount
+        self._hp = min(self._hp, self.hp_max) # HP cannot exceed max HP
+
+    def attack(self, target: 'Character') -> None:
         """Attack and deal damage to target character"""
         target._hp -= self.damage
         target._hp = max(target._hp, 0) # Target hp cannot end up lower than 0
+
     def introduce(self) -> None:
         """Creates string that introduces character"""
         print(f"Hi, my name is {self.name}!")

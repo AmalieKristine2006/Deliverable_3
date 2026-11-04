@@ -12,7 +12,8 @@ class Dice:
         return random.randint(1, self.sides)
 
     def __repr__(self) -> str:
-        pass
+        # Returnerer hvor mange sider terningen har
+        return f"Dice(sides={self.sides})"
     
     def __call__(self) -> int:
         pass

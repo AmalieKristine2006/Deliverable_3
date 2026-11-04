@@ -7,3 +7,4 @@ class Weapon:
     def roll_damage(self) -> int:
         """Roll the damage dice and return the damage value"""
         return self.damage_dice.roll()
+    

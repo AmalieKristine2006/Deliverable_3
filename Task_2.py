@@ -16,7 +16,8 @@ class Dice:
         return f"Dice(sides={self.sides})"
     
     def __call__(self) -> int:
-        pass
+        # Triller terningen?
+        return self.roll()
 
 
 

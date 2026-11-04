@@ -8,7 +8,8 @@ class Dice:
 
    
    def roll(self) -> int:
-        pass
+        # Triller terningen og returnerer et tall mellom 1 og antall sider
+        return random.randint(1, self.sides)
 
     def __repr__(self) -> str:
         pass

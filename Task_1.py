@@ -22,7 +22,7 @@ class Character:
 
     def take_damage(self, damage: int) -> None:
         """Take damage and reduce hit points"""
-        self._hp -= damage
+        self._hp -= self.weapon.roll_damage() if self.weapon else damage
         self._hp = max(self._hp, 0) # HP cannot end up lower than 0
 
     def heal(self, amount: int) -> None:

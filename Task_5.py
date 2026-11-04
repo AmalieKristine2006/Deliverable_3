@@ -10,3 +10,7 @@ class Battle:
         if self.enemy.is_alive:
             self.enemy.attack(self.hero)
 
+    def simulate_battle(self) -> None:
+        """Simulate the battle until one character is defeated"""
+        while self.hero.is_alive and self.enemy.is_alive:
+            self.play_round()

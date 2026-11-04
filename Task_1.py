@@ -22,7 +22,7 @@ class Character:
 
     def take_damage(self, damage: int) -> None:
         """Take damage and reduce hit points"""
-        self._hp -= self.weapon.roll_damage() if self.weapon else damage
+        self._hp -= damage
         self._hp = max(self._hp, 0) # HP cannot end up lower than 0
 
     def heal(self, amount: int) -> None:
@@ -32,7 +32,10 @@ class Character:
 
     def attack(self, target: 'Character') -> None:
         """Attack and deal damage to target character"""
-        target.take_damage(self.damage)
+        if self.weapon:
+            target.take_damage(self.weapon.roll_damage())
+        else:
+            target.take_damage(self.damage)
 
     def introduce(self) -> None:
         """Creates string that introduces character"""

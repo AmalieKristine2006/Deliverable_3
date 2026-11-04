@@ -4,3 +4,9 @@ class Battle:
         self.hero = hero
         self.enemy = enemy
 
+    def play_round(self) -> None:
+        """Play a round of the battle where both characters attack each other"""
+        self.hero.attack(self.enemy) 
+        if self.enemy.is_alive:
+            self.enemy.attack(self.hero)
+

@@ -44,3 +44,8 @@ def hp(self) -> int:
     """Public read-only property to inspect HP without allowing direct, unsafe
     edits."""
     return self._hp
+
+@property
+def is_alive(self) -> bool:
+    """Public read-only property to check if character is alive"""
+    return self._hp > 0

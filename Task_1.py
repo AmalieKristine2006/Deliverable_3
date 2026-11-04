@@ -1,19 +1,24 @@
 # Object-oriented game simulator
 # Turid Torheim, NMBU, 2026
+from Task_3 import Weapons
+
+
 class Character:
     """Represents a character in the RPG"""
-    def __init__(self, name: str, hp_max: int = 100, damage: int = 10) -> None:
+    def __init__(self, name: str, hp_max: int = 100, damage: int = 10, weapon: Weapons = None) -> None:
         """
         Initialise the Character
         Args:
         name (str): The name of the character.
         hp_max (int): Max hit points (default = 100)
         damage (int): Damage delt when character attacks (default = 10)
+        weapon (Weapons): Optional weapon object for the character (default = None)
         """
         self.name = name
         self._hp = hp_max # Note: _hp indicated private attribute
         self.hp_max = hp_max
         self.damage = damage
+        self.weapon = weapon
 
     def take_damage(self, damage: int) -> None:
         """Take damage and reduce hit points"""

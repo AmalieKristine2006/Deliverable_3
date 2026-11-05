@@ -1,11 +1,11 @@
 # Object-oriented game simulator
 # Turid Torheim, NMBU, 2026
-from Task_3 import Weapons
+from Task_3 import Weapon
 
 
 class Character:
     """Represents a character in the RPG"""
-    def __init__(self, name: str, hp_max: int = 100, damage: int = 10, weapon: Weapons = None) -> None:
+    def __init__(self, name: str, hp_max: int = 100, damage: int = 10, weapon: Weapon = None) -> None:
         """
         Initialise the Character
         Args:

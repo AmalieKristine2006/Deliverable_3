@@ -1,3 +1,6 @@
+from Task_1 import Character
+
+
 class Battle:
     def __init__(self, hero: Character, enemy: Character) -> None:
         """Initialize the battle with a hero and a enemy character"""

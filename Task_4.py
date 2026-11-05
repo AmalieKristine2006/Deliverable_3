@@ -13,5 +13,7 @@ class Warrior(Character):
         super().take_damage(damage=damage)
         damage = damage - self.armor
             
-
+class Mage(Character):
+    def __init__(self, name: str, hp_max: int = 100, damage: int = 10, weapon: Weapon = None) -> None:
+        super().__init__(name=name, hp_max=hp_max, damage=damage, weapon=weapon)
     

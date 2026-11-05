@@ -1,5 +1,5 @@
-import Task_1
-import Task_3
+from Task_1 import Character
+from Task_3 import Weapon
 
 
 class Warrior(Character):

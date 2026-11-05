@@ -10,7 +10,7 @@ class Warrior(Character):
 
     # Skal ta mindre skade hvis spiller har skjold
     def take_damage(self, damage: int):
-        super().take_damage(self, damage: int)
+        super().take_damage(damage=damage)
         damage = damage - self.armor
             
 

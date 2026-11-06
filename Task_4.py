@@ -18,14 +18,19 @@ class Mage(Character):
         super().__init__(name=name, hp_max=hp_max, damage=damage, weapon=weapon)
         self.mana = mana
 
-    def take_damage(self, damage: int):
-        super().take_damage(damage=damage)
+    def attack(self, target: 'Character')
+        super().attack(target=target)
+        if self.mana < 10:
+            if self.weapon:
+                        target.take_damage(self.weapon.roll_damage())
+                    else:
+                        target.take_damage(self.damage)
 
-        
         if self.mana >= 10:
             damage=damage*2 and self.mana = self.mana - 10
 
-        if self.mana > 10:
-            super().attack(self, target: 'Character')
+        
+    
+    super().attack(self, target: 'Character')
 
     

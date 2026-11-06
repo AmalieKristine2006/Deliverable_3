@@ -14,6 +14,18 @@ class Warrior(Character):
         damage = damage - self.armor
             
 class Mage(Character):
-    def __init__(self, name: str, hp_max: int = 100, damage: int = 10, weapon: Weapon = None) -> None:
+    def __init__(self, name: str, hp_max: int = 100, damage: int = 10, weapon: Weapon = None, mana: int = 30, mana_max: int = 30) -> None:
         super().__init__(name=name, hp_max=hp_max, damage=damage, weapon=weapon)
+        self.mana = mana
+
+    def take_damage(self, damage: int):
+        super().take_damage(damage=damage)
+
+        
+        if self.mana >= 10:
+            damage=damage*2 and self.mana = self.mana - 10
+
+        if self.mana > 10:
+            super().attack(self, target: 'Character')
+
     

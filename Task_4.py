@@ -18,11 +18,12 @@ class Mage(Character):
         super().__init__(name=name, hp_max=hp_max, damage=damage, weapon=weapon)
         self.mana = mana
 
-    def attack(self, target: 'Character')
-    
+    def attack(self, target: 'Character'):
+    # Hvis den har mer enn 10 mana bruker den 10 på å angripe med dobbel skade.
         if self.mana >= 10:
               self.mana -= 10
               target.take_damage(self.damage*2)
+        #Hvis den ikke har 10 mana angriper den som vanlig med attack mens den får mer mana
         else: 
              super().attack(target=target)
              self.mana = self.mana + 5

@@ -17,6 +17,7 @@ class Mage(Character):
     def __init__(self, name: str, hp_max: int = 100, damage: int = 10, weapon: Weapon = None, mana: int = 30, mana_max: int = 30) -> None:
         super().__init__(name=name, hp_max=hp_max, damage=damage, weapon=weapon)
         self.mana = mana
+        self.mana_max = mana_max
 
     def attack(self, target: 'Character'):
     # If it has more than 10 mana it spends 10 to attack with double damage

@@ -18,7 +18,5 @@ class Dice:
         # Allows you to call and roll the dice
         return self.roll()
 
-#test
-a = Dice(sides=5)
-print(a())
+
 

@@ -1,0 +1,54 @@
+* 8a541b0 - Amalie Fyhn, 49 seconds ago : venv-info
+* 693127e - Vanessa Tryba, 80 minutes ago : task 5 presented
+* 85f72eb - Amalie Fyhn, 2 hours ago : MInor edit
+* ebd68cf - Amalie Fyhn, 2 hours ago : Task 1 presentation: introduction
+* 86579ec - Amalie Fyhn, 2 hours ago : Task 1 presentation: Halfway done
+* cfe4989 - Amalie Fyhn, 3 hours ago : Task 5 presentation: needs some work
+* 8157356 - Amalie Fyhn, 3 hours ago : Minor fix
+* 5754b27 - Amalie Fyhn, 3 hours ago : Task 2: remowed test
+* db72143 - Amalie Fyhn, 3 hours ago : Added repository-link
+* b83b60e - Amalie Fyhn, 3 hours ago : Task 3 presented
+* 4ea1f8f - Amalie Fyhn, 3 hours ago : MInor fix
+* 4c9e328 - Amalie Fyhn, 3 hours ago : Task 4 presented
+* 0d1edb7 - Amalie Fyhn, 3 hours ago : Presents task 2 and half of task 4
+* 302f18c - Amalie Fyhn, 26 hours ago : Added an explanation
+* 20b77c0 - Vanessa Tryba, 2 days ago : titel
+*   92017f3 - Vanessa Tryba, 2 days ago : Merge branch 'main' of https://github.com/AmalieKristine2006/Deliverable_3
+|\  
+| * fe0b78d - Amalie Fyhn, 6 days ago : Minor fix
+| * e36d319 - Amalie Fyhn, 6 days ago : Translated comments
+| * 087ce41 - Amalie Fyhn, 6 days ago : Added comments
+| * 197e515 - Amalie Fyhn, 6 days ago : Translated comments
+| * cc4ffdd - Amalie Fyhn, 6 days ago : attack-function filled in and  edited
+| * 1cdb23a - Amalie Fyhn, 6 days ago : wrong function in mage corrected
+| * 94269f7 - Amalie Fyhn, 6 days ago : mage __init__ done, take damage partially modified
+| * 51acadc - Amalie Fyhn, 7 days ago : started mage-character
+* | e29c1cb - Vanessa Tryba, 2 days ago : task 1 in final presentation
+|/  
+* b526807 - Amalie Fyhn, 7 days ago : fixed damage=damage
+* 4de70fb - Amalie Fyhn, 7 days ago : minor fix
+* 2e324d6 - Vanessa Tryba, 7 days ago : added import
+* 6cd1db7 - Amalie Fyhn, 7 days ago : Weapons to Weapon
+* ba0b751 - Amalie Fyhn, 7 days ago : Warrior-subclass done + other classes won't import
+* acb6fb0 - Amalie Fyhn, 7 days ago : Added __init__ with armor
+* c4d5153 - Amalie Fyhn, 7 days ago : fixed error-message + (<) was the wrong way
+* 2468a04 - Amalie Fyhn, 8 days ago : created __call__-function, get IndentationError
+* eda846a - Amalie Fyhn, 8 days ago : created repr-function
+* f33fc25 - Amalie Fyhn, 8 days ago : created roll-function
+* bb6112c - Amalie Fyhn, 8 days ago : Rough plan
+* 25c5df4 - Vanessa Tryba, 8 days ago : made method simulate battle rough outline for task 5 done
+* 039cf2e - Vanessa Tryba, 8 days ago : made method play_round
+* a3735f2 - Vanessa Tryba, 8 days ago : made class battle
+* 6af8a5c - Vanessa Tryba, 8 days ago : update task 3
+* 82a449c - Vanessa Tryba, 8 days ago : fixed take demage and updated attack
+* de12062 - Vanessa Tryba, 8 days ago : Fixed roll_demage
+* d4ff8d1 - Vanessa Tryba, 8 days ago : Changed take_demage to take demage from a weapon insted base demage if a character has eqquiped weapon
+* 0fb9bf2 - Vanessa Tryba, 8 days ago : updated character to accept optional weapon
+* f1bf433 - Vanessa Tryba, 8 days ago : made a weapons class and roll_deameg method
+* 2c1930c - Vanessa Tryba, 8 days ago : small changes
+* 021d60c - Vanessa Tryba, 8 days ago : added is alive property
+* 8843479 - Vanessa Tryba, 8 days ago : fixed attac in task  1
+* 8fabbaa - Vanessa Tryba, 8 days ago : created take demage and heal task 1
+* f40ee7a - Amalie Fyhn, 8 days ago : Copied game_simulator_v1.py into the file
+* 4f33db2 - Amalie Fyhn, 8 days ago : Created file
+* 045acc8 - AmalieKristine2006, 8 days ago : Initial commit
